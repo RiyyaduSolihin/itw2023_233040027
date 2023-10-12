@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+    <head>
+        <title>Latihan2B</title>
+    </head>
+<body>
+    <form>
+        <table border="1" cellspacing="0" cellpadding="10">
+            <tr>
+                    <th colspan="6" bgcolor="gray">INPUT DATA MAHASISWA</th>
+            </tr>
+            <tr>
+                <td>Username</td>
+                <td>:</td>
+                <td colspan="4"><input type="text" name="username"/></td>
+            </tr>
+            <tr>
+                <td>password</td>
+                <td>:</td>
+                <td colspan="4"><input type="password" name="password"></td>
+            </tr>
+            <tr>
+                <td>Fullname</td>
+                <td>:</td>
+                <td colspan="4"><input type="fullname" name="fullname"/></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td>:</td>
+                <td colspan="4"><input type="email" name="email"/></td>
+            </tr>
+            <tr>
+                <td> Agama </td>
+                <td>:</td>
+                <td>
+                <select>
+                <option name="Agama" selected>--Pilih Agama--</option>
+                <option value="islam">Islam</option>
+                <option value="kristen">Kristen</option>
+                <option value="katolik">Katolik</option>
+                <option value="hindu">Hindu</option>
+                <option value="buddha">Buddha</option>
+                <option value="konghucu">Konghucu</option>
+                </select>
+            </td>
+            </tr>
+            <tr>
+                <td>Jenis Kelamin</td>
+                <td>:</td>
+                <td>
+                    <input type="radio" id="lakilaki" name="jeniskelamin"><label for="lakilaki">laki-laki</label>
+                    <input type="radio" id="Perempuan" name="jeniskelamin"><label for="perempuan">perempuan</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Hobby</td>
+                <td>:</td>
+                <td>
+                    <input type="checkbox" id="Musik"><label for="Musik">Musik</label>
+                    <input type="checkbox" id="Olahraga"><label for="Olahraga">Olahraga</label>
+                    <input type="checkbox" id="Gaming"><label for="Gaming">Gaming</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Profil singkat</td>
+                <td>:</td>
+                <td>
+                    <textarea rows="5" cols="30" name="komentar">
+                    
+                    </textarea>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="6" align="right">
+                    <input type="submit" name="submit" value="input"/>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
