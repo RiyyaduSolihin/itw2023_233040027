@@ -127,10 +127,44 @@ body {
     background-size: cover;
     background-position: 0 -280px;
 }
+.content .data {
+    height: 280px;
+    width: 500px;
+    background-image: url(img/sdd.jpg);
+    background-size: cover;
+    background-position: 0 -280px;
+}
+.content .grafis {
+    height: 280px;
+    width: 500px;
+    background-image: url(img/vga.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+}
+.content .optical {
+    height: 280px;
+    width: 500px;
+    background-image: url(img/optical.jpg);
+    background-size: cover;
+    background-position: 0 -20px;
+}
+.content .os {
+    height: 300px;
+    width: 300px;
+    background-image: url(img/oss.jpg);
+    background-size: cover;
+    background-position: 0 -10px;
+}
 
 .content p {
     margin-bottom: 20px;
     font-size: 14px;
+}
+.content .satu {
+    padding: 0px;
+}
+.content ul li {
+    margin-left: 50px;
 }
 
 .footer {
