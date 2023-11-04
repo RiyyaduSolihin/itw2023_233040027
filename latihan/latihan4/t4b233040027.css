@@ -78,6 +78,10 @@ body {
 .satu {
     padding: 20px;
 }
+.satu .nulis a {
+    color: salmon;
+    text-decoration: none;
+}
 .satu p {
     margin-bottom: 20px;
     font-size: 14px;
@@ -101,10 +105,7 @@ body {
     border-bottom: 5px solid gray;
     border-top: 5px solid gray;
 }
-.content .penulis a {
-    color: salmon;
-    text-decoration: none;
-}
+
 .content .casing {
     height: 280px;
     width: 400px;
