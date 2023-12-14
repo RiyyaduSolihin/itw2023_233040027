@@ -8,18 +8,18 @@
 /* Style Utama */
 body {
     font: 18px/36px 'bebas_neuebold', 'Arial Narrow', arial, sans-serif;
-    background-color: #ddd;
+    background-color: yellow;
 }
 h1 {
     font-size: 80px;
     margin: 50px 0;
     text-align: center;
-    text-shadow: 1px 1px 1px yellow ;
+    text-shadow: 2px 2px 1px  red;
 }
 
 .container {
     width: 900px;
-    background-color: white;
+    background-color: black;
     margin: auto;
     padding: 50px;
     box-shadow: 0 0 3px 3px rgba(0,0,0, .3);
@@ -31,7 +31,7 @@ h1 {
     width:  200px;
     height: 200px;
     overflow: hidden;
-    border: 5px solid #666;
+    border: 5px solid red;
     float: left;
     margin-right: 15px;
     position: relative;
@@ -129,7 +129,7 @@ h1 {
     position: absolute;
     text-indent: -9999px;
     top: 45%;
-    background-color: azure;
+    background-color: yellow;
     border-radius: 50%;
     margin-left: 50px;
     opacity: 0;
